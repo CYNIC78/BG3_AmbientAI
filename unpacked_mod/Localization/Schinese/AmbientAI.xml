@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+    <content contentuid="h7d2e1b4ag0001g4a1dgb5e2g6f3a9c8b0001" version="1">环境 AI</content>
+    <content contentuid="h7d2e1b4ag0002g4a1dgb5e2g6f3a9c8b0002" version="1">切换以启用或禁用同伴闲置行为。启用后，同伴在闲置时会与灯光、家具、书架和训练假人互动。</content>
+    <content contentuid="h7d2e1b4ag0003g4a1dgb5e2g6f3a9c8b0003" version="1">环境 AI 已激活</content>
+    <content contentuid="h7d2e1b4ag0004g4a1dgb5e2g6f3a9c8b0004" version="1">该角色当前允许队伍进行闲置行为。</content>
+    <content contentuid="h7d2e1b4ag0005g4a1dgb5e2g6f3a9c8b0005" version="1">环境 AI：开启</content>
+    <content contentuid="h7d2e1b4ag0006g4a1dgb5e2g6f3a9c8b0006" version="1">环境 AI：关闭</content>
+    <content contentuid="h7d2e1b4ag0010g4a1dgb5e2g6f3a9c8b0010" version="1">Ambient AI</content>
+    <content contentuid="h7d2e1b4ag0011g4a1dgb5e2g6f3a9c8b0011" version="1">Living companions (v1.4.3.2): Smart Field Torchbearer, dark-room candle &amp; sconce priority, 3.5m Idle Anchor radius, Origin voices, smooth poses, 3-tier zone context, hero habits, and smart scavenging.</content>
+    <content contentuid="h7d2e1b4ag0012g4a1dgb5e2g6f3a9c8b0012" version="1">General</content>
+    <content contentuid="h7d2e1b4ag0013g4a1dgb5e2g6f3a9c8b0013" version="1">Core Behavior</content>
+    <content contentuid="h7d2e1b4ag0014g4a1dgb5e2g6f3a9c8b0014" version="1">Interactions &amp; Safety</content>
+    <content contentuid="h7d2e1b4ag0015g4a1dgb5e2g6f3a9c8b0015" version="1">Debugging</content>
+    <content contentuid="h7d2e1b4ag0020g4a1dgb5e2g6f3a9c8b0020" version="1">Active While Grouped (On Idle)</content>
+    <content contentuid="h7d2e1b4ag0021g4a1dgb5e2g6f3a9c8b0021" version="1">When enabled, even grouped (G) companions perform ambient behaviors after your character stands still, stay calm during small steps inside your Idle Anchor radius, and immediately return when you walk out of it.</content>
+    <content contentuid="h7d2e1b4ag0022g4a1dgb5e2g6f3a9c8b0022" version="1">Grouped Idle Delay (sec)</content>
+    <content contentuid="h7d2e1b4ag0023g4a1dgb5e2g6f3a9c8b0023" version="1">Seconds the player character must stand still before grouped companions start acting on their own.</content>
+    <content contentuid="h7d2e1b4ag0024g4a1dgb5e2g6f3a9c8b0024" version="1">Search &amp; Leash Radius (m)</content>
+    <content contentuid="h7d2e1b4ag0025g4a1dgb5e2g6f3a9c8b0025" version="1">Maximum distance (in meters from the leader) companions search for objects and wander.</content>
+    <content contentuid="h7d2e1b4ag0026g4a1dgb5e2g6f3a9c8b0026" version="1">Curiosity Cooldown (ms)</content>
+    <content contentuid="h7d2e1b4ag0027g4a1dgb5e2g6f3a9c8b0027" version="1">Minimum time between inspecting curiosities, globes, mirrors, and gravestones.</content>
+    <content contentuid="h7d2e1b4ag0028g4a1dgb5e2g6f3a9c8b0028" version="1">Idle Animation Frequency</content>
+    <content contentuid="h7d2e1b4ag0029g4a1dgb5e2g6f3a9c8b0029" version="1">Probability (0.0 - 1.0) of playing a character-specific idle animation instead of wandering.</content>
+    <content contentuid="h7d2e1b4ag0030g4a1dgb5e2g6f3a9c8b0030" version="1">暗处优先点亮蜡烛、烛台与灯具</content>
+    <content contentuid="h7d2e1b4ag0031g4a1dgb5e2g6f3a9c8b0031" version="1">进入昏暗房间时，同伴会优先点亮未燃的蜡烛、烛台、提灯、壁灯与火盆，绝不在黑暗中看书（自动避开油脂、火药、蛛网及附近敌人）。</content>
+    <content contentuid="h7d2e1b4ag0032g4a1dgb5e2g6f3a9c8b0032" version="1">Looting Mode</content>
+    <content contentuid="h7d2e1b4ag0033g4a1dgb5e2g6f3a9c8b0033" version="1">Controls picking up unowned loose items and visually inspecting containers (ignores stolen items, story items, and camp decor).</content>
+    <content contentuid="h7d2e1b4ag0034g4a1dgb5e2g6f3a9c8b0034" version="1">Disabled (Pure Immersion)</content>
+    <content contentuid="h7d2e1b4ag0035g4a1dgb5e2g6f3a9c8b0035" version="1">Gold &amp; Maps Only</content>
+    <content contentuid="h7d2e1b4ag0036g4a1dgb5e2g6f3a9c8b0036" version="1">All (Pickup + Inspect Containers)</content>
+    <content contentuid="h7d2e1b4ag0037g4a1dgb5e2g6f3a9c8b0037" version="1">Break Cracked Walls</content>
+    <content contentuid="h7d2e1b4ag0038g4a1dgb5e2g6f3a9c8b0038" version="1">Companions attack destructible cracked walls outside stealth (stops automatically if the wall resists damage).</content>
+    <content contentuid="h7d2e1b4ag0039g4a1dgb5e2g6f3a9c8b0039" version="1">Napping Restores Health</content>
+    <content contentuid="h7d2e1b4ag003ag4a1dgb5e2g6f3a9c8b003a" version="1">Companions slowly recover a small amount of HP when taking a nap on a bed.</content>
+    <content contentuid="h7d2e1b4ag003bg4a1dgb5e2g6f3a9c8b003b" version="1">Reading Grants XP</content>
+    <content contentuid="h7d2e1b4ag003cg4a1dgb5e2g6f3a9c8b003c" version="1">If enabled, companions gain small XP rewards while reading books.</content>
+    <content contentuid="h7d2e1b4ag003dg4a1dgb5e2g6f3a9c8b003d" version="1">Debug Logging</content>
+    <content contentuid="h7d2e1b4ag003eg4a1dgb5e2g6f3a9c8b003e" version="1">Prints detailed Ambient AI logs to the Script Extender console.</content>
+    <content contentuid="h7d2e1b4ag0040g4a1dgb5e2g6f3a9c8b0040" version="1">Living Party (Smart Ambient)</content>
+    <content contentuid="h7d2e1b4ag0041g4a1dgb5e2g6f3a9c8b0041" version="1">同伴性格与标志性习惯</content>
+    <content contentuid="h7d2e1b4ag0042g4a1dgb5e2g6f3a9c8b0042" version="1">起源同伴会优先选择符合人设的互动（盖尔：书架与星象仪；阿斯代伦：镜子与画作；影心：宠物与烛台；莱埃泽尔与卡菈克：训练假人与警戒巡视）。</content>
+    <content contentuid="h7d2e1b4ag0043g4a1dgb5e2g6f3a9c8b0043" version="1">React to Bard Music</content>
+    <content contentuid="h7d2e1b4ag0044g4a1dgb5e2g6f3a9c8b0044" version="1">Dance and applause animations only play when someone nearby performs music — companions gather, face the musician, clap, and dance.</content>
+    <content contentuid="h7d2e1b4ag0045g4a1dgb5e2g6f3a9c8b0045" version="1">三态环境感知（营地 / 城镇 / 地下城）</content>
+    <content contentuid="h7d2e1b4ag0046g4a1dgb5e2g6f3a9c8b0046" version="1">在营地围炉闲聊休憩，在城镇酒馆赏画小坐，在地下城与危险区保持警戒点灯、绝不席地酣睡。</content>
+    <content contentuid="h7d2e1b4ag0047g4a1dgb5e2g6f3a9c8b0047" version="1">Companion Chatting &amp; Pets</content>
+    <content contentuid="h7d2e1b4ag0048g4a1dgb5e2g6f3a9c8b0048" version="1">Companions occasionally socialize with each other by the fire and greet Scratch or the Owlbear Cub when nearby.</content>
+    <content contentuid="h7d2e1b4ag0049g4a1dgb5e2g6f3a9c8b0049" version="1">同伴探索语音反馈</content>
+    <content contentuid="h7d2e1b4ag004ag4a1dgb5e2g6f3a9c8b004a" version="1">将主角的单人探索感叹（_PAD_ / _VB_）转交给附近的同伴，播放拉瑞安原版同伴配音。</content>
+    <content contentuid="h7d2e1b4ag004bg4a1dgb5e2g6f3a9c8b004b" version="1">同伴语音占比 (%)</content>
+    <content contentuid="h7d2e1b4ag004cg4a1dgb5e2g6f3a9c8b004c" version="1">附近同伴代替主角对发现物或地点发表评论的概率（默认 80%）。</content>
+    <content contentuid="h7d2e1b4ag0050g4a1dgb5e2g6f3a9c8b0050" version="1">智能探索（减负系统）</content>
+    <content contentuid="h7d2e1b4ag0051g4a1dgb5e2g6f3a9c8b0051" version="1">智能搜刮与营地分类</content>
+    <content contentuid="h7d2e1b4ag0052g4a1dgb5e2g6f3a9c8b0052" version="1">Companions inspect unlocked minor containers (vases, crates, sacks, barrels — leaving chests to you) and loose items: collect gold, tools, and alchemy, send fresh food and valuable trade goods straight to your Camp Chest, ignore 1-gold clutter, and call out scrolls, potions, books, keys, and gear.</content>
+    <content contentuid="h7d2e1b4ag0053g4a1dgb5e2g6f3a9c8b0053" version="1">与商人交易时自动出售营地贵重品</content>
+    <content contentuid="h7d2e1b4ag0054g4a1dgb5e2g6f3a9c8b0054" version="1">When you open trade with any merchant, automatically sells scavenged valuables stored in your Camp Chest (goblets, silverware, gems, ingots) up to the merchant's actual gold supply.</content>
+    <content contentuid="h7d2e1b4ag0055g4a1dgb5e2g6f3a9c8b0055" version="1">Min Trade Good Value (Gold)</content>
+    <content contentuid="h7d2e1b4ag0056g4a1dgb5e2g6f3a9c8b0056" version="1">Minimum base gold value for common trade goods (silverware, goblets, ingots) to be collected for camp auto-sell instead of ignored as clutter (default 10g).</content>
+    <content contentuid="h7d2e1b4ag0057g4a1dgb5e2g6f3a9c8b0057" version="1">发现陷阱立即全队急停</content>
+    <content contentuid="h7d2e1b4ag0058g4a1dgb5e2g6f3a9c8b0058" version="1">Immediately halts all moving party members the instant anyone spots an armed trap ahead.</content>
+    <content contentuid="h7d2e1b4ag0059g4a1dgb5e2g6f3a9c8b0059" version="1">战斗后自动清洗血迹与污垢</content>
+    <content contentuid="h7d2e1b4ag005ag4a1dgb5e2g6f3a9c8b005a" version="1">Gently cleans blood and grime off the party shortly after combat and in Camp using native soap cleansing (no Wet status or puddles).</content>
+    <content contentuid="h7d2e1b4ag0060g4a1dgb5e2g6f3a9c8b0060" version="1">小心，有陷阱！停下！</content>
+    <content contentuid="h7d2e1b4ag0061g4a1dgb5e2g6f3a9c8b0061" version="1">Found equipment here — take a look!</content>
+    <content contentuid="h7d2e1b4ag0062g4a1dgb5e2g6f3a9c8b0062" version="1">Potion or scroll over here!</content>
+    <content contentuid="h7d2e1b4ag0063g4a1dgb5e2g6f3a9c8b0063" version="1">Key or writings here — check this!</content>
+    <content contentuid="h7d2e1b4ag0064g4a1dgb5e2g6f3a9c8b0064" version="1">Something special right here!</content>
+    <content contentuid="h7d2e1b4ag0065g4a1dgb5e2g6f3a9c8b0065" version="1">已出售营地战利品：%d 件（+%d 金币）</content>
+    <content contentuid="h7d2e1b4ag0066g4a1dgb5e2g6f3a9c8b0066" version="1">Supplies sent to Camp</content>
+    <content contentuid="h7d2e1b4ag0070g4a1dgb5e2g6f3a9c8b0070" version="1">同伴动作与闲置原生语音</content>
+    <content contentuid="h7d2e1b4ag0071g4a1dgb5e2g6f3a9c8b0071" version="1">同伴在搜刮容器、拾取物品、提示重要发现、阅读书籍、休息、抚摸宠物和闲聊时播放拉瑞安原生配音（潜行、战斗和对话时自动静音）。</content>
+    <content contentuid="h7d2e1b4ag0072g4a1dgb5e2g6f3a9c8b0072" version="1">动作语音冷却间隔（秒）</content>
+    <content contentuid="h7d2e1b4ag0073g4a1dgb5e2g6f3a9c8b0073" version="1">全队动作与闲置语音之间的平均最小间隔秒数，防止语音重叠或过于频繁（默认 24 秒）。</content>
+    <content contentuid="h7d2e1b4ag0074g4a1dgb5e2g6f3a9c8b0074" version="1">激战后喘息与短休提醒</content>
+    <content contentuid="h7d2e1b4ag0075g4a1dgb5e2g6f3a9c8b0075" version="1">经历苦战受伤后，起源同伴会说出疲惫语音，并在仍有可用短休时温和提醒。</content>
+    <content contentuid="h7d2e1b4ag0076g4a1dgb5e2g6f3a9c8b0076" version="1">喘口气吧……（可进行短休）</content>
+    <content contentuid="h7d2e1b4ag0077g4a1dgb5e2g6f3a9c8b0077" version="1">待机锚点半径（米）</content>
+    <content contentuid="h7d2e1b4ag0078g4a1dgb5e2g6f3a9c8b0078" version="1">在停驻点周围该半径内微调走位不会打断同伴当前的待机互动或重置计时（0 = 迈步即集合）。</content>
+    <content contentuid="h7d2e1b4ag0079g4a1dgb5e2g6f3a9c8b0079" version="1">智能随行执炬者</content>
+    <content contentuid="h7d2e1b4ag007ag4a1dgb5e2g6f3a9c8b007a" version="1">在伸手不见五指的暗处，一名同伴（优先无黑暗视觉者）会自动取出普通火把照路；一旦进入潜行、发现敌人、进入战斗、靠近易燃物或房间蜡烛已点亮，便立即无缝换回原武器（涂毒/附魔武器绝不替换）。</content>
+</contentList>

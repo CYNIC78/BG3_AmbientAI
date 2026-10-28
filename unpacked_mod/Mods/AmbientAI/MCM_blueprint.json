@@ -1,0 +1,460 @@
+{
+  "SchemaVersion": 1,
+  "Optional": true,
+  "ModName": "Ambient AI",
+  "ModDescription": "Brings companions to life while idle: unique personalities, dynamic reactions to bard music, context-aware camp/dungeon behavior, and social interactions.",
+  "Handles": {
+    "NameHandle": "h7d2e1b4ag0010g4a1dgb5e2g6f3a9c8b0010",
+    "DescriptionHandle": "h7d2e1b4ag0011g4a1dgb5e2g6f3a9c8b0011"
+  },
+  "Tabs": [
+    {
+      "TabId": "AmbientAI_Main",
+      "TabName": "General",
+      "Handles": {
+        "NameHandle": "h7d2e1b4ag0012g4a1dgb5e2g6f3a9c8b0012"
+      },
+      "Sections": [
+        {
+          "SectionId": "AmbientAI_General",
+          "SectionName": "Core Behavior",
+          "Handles": {
+            "NameHandle": "h7d2e1b4ag0013g4a1dgb5e2g6f3a9c8b0013"
+          },
+          "Settings": [
+            {
+              "Id": "AmbientAI_AllowGrouped",
+              "Type": "checkbox",
+              "Name": "Active While Grouped (On Idle)",
+              "Description": "When enabled, even grouped (G) companions perform ambient behaviors after your character stands still. They immediately return when you move.",
+              "Default": true,
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag0020g4a1dgb5e2g6f3a9c8b0020",
+                "DescriptionHandle": "h7d2e1b4ag0021g4a1dgb5e2g6f3a9c8b0021"
+              }
+            },
+            {
+              "Id": "AmbientAI_GroupedIdleDelay",
+              "Type": "slider_int",
+              "Name": "Grouped Idle Delay (sec)",
+              "Description": "Seconds the player character must stand still before grouped companions start acting on their own. Lower = snappier reactions (3-4 s), higher = calmer party that ignores very short stops (8-12 s).",
+              "Default": 6,
+              "Options": {
+                "Min": 3,
+                "Max": 60,
+                "Step": 1
+              },
+              "VisibleIf": {
+                "Conditions": [
+                  {
+                    "SettingId": "AmbientAI_AllowGrouped",
+                    "Operator": "==",
+                    "ExpectedValue": true
+                  }
+                ]
+              },
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag0022g4a1dgb5e2g6f3a9c8b0022",
+                "DescriptionHandle": "h7d2e1b4ag0023g4a1dgb5e2g6f3a9c8b0023"
+              }
+            },
+            {
+              "Id": "AmbientAI_AnchorRadius",
+              "Type": "slider_float",
+              "Name": "Idle Anchor Radius (m)",
+              "Description": "Radius (in meters) around your stop point where small steps will NOT interrupt ongoing companion idles or reset the idle timer (0 = abort on any step).",
+              "Default": 3.5,
+              "Options": {
+                "Min": 0.0,
+                "Max": 8.0,
+                "Step": 0.5
+              },
+              "VisibleIf": {
+                "Conditions": [
+                  {
+                    "SettingId": "AmbientAI_AllowGrouped",
+                    "Operator": "==",
+                    "ExpectedValue": true
+                  }
+                ]
+              },
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag0077g4a1dgb5e2g6f3a9c8b0077",
+                "DescriptionHandle": "h7d2e1b4ag0078g4a1dgb5e2g6f3a9c8b0078"
+              }
+            },
+            {
+              "Id": "AmbientAI_SearchRadius",
+              "Type": "slider_float",
+              "Name": "Search & Leash Radius (m)",
+              "Description": "Maximum distance (in meters from the leader) companions search for objects and wander.",
+              "Default": 12.0,
+              "Options": {
+                "Min": 4.0,
+                "Max": 25.0,
+                "Step": 1.0
+              },
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag0024g4a1dgb5e2g6f3a9c8b0024",
+                "DescriptionHandle": "h7d2e1b4ag0025g4a1dgb5e2g6f3a9c8b0025"
+              }
+            },
+            {
+              "Id": "AmbientAI_FlavorCooldown",
+              "Type": "slider_int",
+              "Name": "Curiosity Cooldown (ms)",
+              "Description": "Minimum time between inspecting curiosities, globes, mirrors, and gravestones.",
+              "Default": 20000,
+              "Options": {
+                "Min": 5000,
+                "Max": 60000,
+                "Step": 1000
+              },
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag0026g4a1dgb5e2g6f3a9c8b0026",
+                "DescriptionHandle": "h7d2e1b4ag0027g4a1dgb5e2g6f3a9c8b0027"
+              }
+            },
+            {
+              "Id": "AmbientAI_AnimFreq",
+              "Type": "slider_float",
+              "Name": "Idle Animation Frequency",
+              "Description": "Probability (0.0 - 1.0) of playing a character-specific idle animation instead of wandering.",
+              "Default": 0.30,
+              "Options": {
+                "Min": 0.0,
+                "Max": 1.0,
+                "Step": 0.05
+              },
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag0028g4a1dgb5e2g6f3a9c8b0028",
+                "DescriptionHandle": "h7d2e1b4ag0029g4a1dgb5e2g6f3a9c8b0029"
+              }
+            }
+          ]
+        },
+        {
+          "SectionId": "AmbientAI_LivingParty",
+          "SectionName": "Living Party (Smart Ambient)",
+          "Handles": {
+            "NameHandle": "h7d2e1b4ag0040g4a1dgb5e2g6f3a9c8b0040"
+          },
+          "Settings": [
+            {
+              "Id": "AmbientAI_Personalities",
+              "Type": "checkbox",
+              "Name": "Companion Personalities & Signature Habits",
+              "Description": "Each story companion claims activities matching their lore first (Gale seeks bookshelves, telescopes & globes; Astarion mirrors & art; Shadowheart pets & shrine candles; Lae'zel & Karlach dummies & perimeter watch).",
+              "Default": true,
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag0041g4a1dgb5e2g6f3a9c8b0041",
+                "DescriptionHandle": "h7d2e1b4ag0042g4a1dgb5e2g6f3a9c8b0042"
+              }
+            },
+            {
+              "Id": "AmbientAI_BardSync",
+              "Type": "checkbox",
+              "Name": "React to Bard Music",
+              "Description": "Dance and applause animations only play when someone nearby actually performs music — companions gather, face the musician, clap, and dance.",
+              "Default": true,
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag0043g4a1dgb5e2g6f3a9c8b0043",
+                "DescriptionHandle": "h7d2e1b4ag0044g4a1dgb5e2g6f3a9c8b0044"
+              }
+            },
+            {
+              "Id": "AmbientAI_ContextAware",
+              "Type": "checkbox",
+              "Name": "3-Tier Zone Context (Camp / Town / Dungeon)",
+              "Description": "Adapts party behavior across Camp (cozy fire, chatting, pets, resting, zero scavenging), Towns/Taverns (art, curiosities, benches), and Dungeons/Danger Zones (alert perimeter, lighting dark sconces, no napping or sprawling).",
+              "Default": true,
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag0045g4a1dgb5e2g6f3a9c8b0045",
+                "DescriptionHandle": "h7d2e1b4ag0046g4a1dgb5e2g6f3a9c8b0046"
+              }
+            },
+            {
+              "Id": "AmbientAI_PostCombatBreather",
+              "Type": "checkbox",
+              "Name": "Post-Battle Breather & Short Rest Hint",
+              "Description": "After a heavy fight where party members are wounded, a bruised companion catches their breath with an authentic tired voice line and gently reminds you if unused Short Rests are available.",
+              "Default": true,
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag0074g4a1dgb5e2g6f3a9c8b0074",
+                "DescriptionHandle": "h7d2e1b4ag0075g4a1dgb5e2g6f3a9c8b0075"
+              }
+            },
+            {
+              "Id": "AmbientAI_SocialPets",
+              "Type": "checkbox",
+              "Name": "Companion Chatting & Pets",
+              "Description": "Companions occasionally socialize with each other by the fire and greet Scratch or the Owlbear Cub when nearby.",
+              "Default": true,
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag0047g4a1dgb5e2g6f3a9c8b0047",
+                "DescriptionHandle": "h7d2e1b4ag0048g4a1dgb5e2g6f3a9c8b0048"
+              }
+            },
+            {
+              "Id": "AmbientAI_ReactiveVoices",
+              "Type": "checkbox",
+              "Name": "Reactive Companion Voices",
+              "Description": "Redirects single-speaker exploration barks (_PAD_ / _VB_) from your Avatar to nearby companions using their authentic voiced Larian lines.",
+              "Default": true,
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag0049g4a1dgb5e2g6f3a9c8b0049",
+                "DescriptionHandle": "h7d2e1b4ag004ag4a1dgb5e2g6f3a9c8b004a"
+              }
+            },
+            {
+              "Id": "AmbientAI_VoiceShare",
+              "Type": "slider_int",
+              "Name": "Companion Voice Share (%)",
+              "Description": "Percentage chance that a nearby companion comments on a discovery or location instead of your Avatar (default 80%).",
+              "Default": 80,
+              "Options": {
+                "Min": 0,
+                "Max": 100,
+                "Step": 5
+              },
+              "VisibleIf": {
+                "Conditions": [
+                  {
+                    "SettingId": "AmbientAI_ReactiveVoices",
+                    "Operator": "==",
+                    "ExpectedValue": true
+                  }
+                ]
+              },
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag004bg4a1dgb5e2g6f3a9c8b004b",
+                "DescriptionHandle": "h7d2e1b4ag004cg4a1dgb5e2g6f3a9c8b004c"
+              }
+            },
+            {
+              "Id": "AmbientAI_ActionVoices",
+              "Type": "checkbox",
+              "Name": "Action & Roleplay Voices",
+              "Description": "Companions naturally speak native Larian voice lines when scavenging containers, picking up items, calling out finds or traps, reading books, inspecting curiosities, resting, greeting pets, and chatting (automatically silent in stealth, combat, and dialogs).",
+              "Default": true,
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag0070g4a1dgb5e2g6f3a9c8b0070",
+                "DescriptionHandle": "h7d2e1b4ag0071g4a1dgb5e2g6f3a9c8b0071"
+              }
+            },
+            {
+              "Id": "AmbientAI_ActionVoiceCooldown",
+              "Type": "slider_int",
+              "Name": "Action Voice Cooldown (sec)",
+              "Description": "Average minimum party-wide delay in seconds between companion action/idle voice remarks so nobody talks over anyone else or repeats lines too often (default 24s).",
+              "Default": 24,
+              "Options": {
+                "Min": 8,
+                "Max": 90,
+                "Step": 4
+              },
+              "VisibleIf": {
+                "Conditions": [
+                  {
+                    "SettingId": "AmbientAI_ActionVoices",
+                    "Operator": "==",
+                    "ExpectedValue": true
+                  }
+                ]
+              },
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag0072g4a1dgb5e2g6f3a9c8b0072",
+                "DescriptionHandle": "h7d2e1b4ag0073g4a1dgb5e2g6f3a9c8b0073"
+              }
+            }
+          ]
+        },
+        {
+          "SectionId": "AmbientAI_SmartExplorer",
+          "SectionName": "Smart Explorer (Anti-Tedium)",
+          "Handles": {
+            "NameHandle": "h7d2e1b4ag0050g4a1dgb5e2g6f3a9c8b0050"
+          },
+          "Settings": [
+            {
+              "Id": "AmbientAI_SmartScavenger",
+              "Type": "checkbox",
+              "Name": "Smart Scavenger & Camp Sorting",
+              "Description": "Companions inspect unlocked minor containers (vases, crates, sacks, barrels — leaving chests to you) and loose items: collect gold, tools, and alchemy, send fresh food and valuable trade goods straight to your Camp Chest, ignore 1-gold clutter, and call out scrolls, potions, books, keys, and gear.",
+              "Default": true,
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag0051g4a1dgb5e2g6f3a9c8b0051",
+                "DescriptionHandle": "h7d2e1b4ag0052g4a1dgb5e2g6f3a9c8b0052"
+              }
+            },
+            {
+              "Id": "AmbientAI_AutoSellTrader",
+              "Type": "checkbox",
+              "Name": "Auto-Sell Camp Valuables at Traders",
+              "Description": "When you open trade with any merchant, automatically sells scavenged valuables stored in your Camp Chest (goblets, silverware, gems, ingots) up to the merchant's actual gold supply.",
+              "Default": true,
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag0053g4a1dgb5e2g6f3a9c8b0053",
+                "DescriptionHandle": "h7d2e1b4ag0054g4a1dgb5e2g6f3a9c8b0054"
+              }
+            },
+            {
+              "Id": "AmbientAI_MinSellValue",
+              "Type": "slider_int",
+              "Name": "Min Trade Good Value (Gold)",
+              "Description": "Minimum base gold value for common trade goods (silverware, goblets, ingots) to be collected for camp auto-sell instead of ignored as clutter (default 10g).",
+              "Default": 10,
+              "Options": {
+                "Min": 5,
+                "Max": 50,
+                "Step": 5
+              },
+              "VisibleIf": {
+                "Conditions": [
+                  {
+                    "SettingId": "AmbientAI_SmartScavenger",
+                    "Operator": "==",
+                    "ExpectedValue": true
+                  }
+                ]
+              },
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag0055g4a1dgb5e2g6f3a9c8b0055",
+                "DescriptionHandle": "h7d2e1b4ag0056g4a1dgb5e2g6f3a9c8b0056"
+              }
+            },
+            {
+              "Id": "AmbientAI_TrapReflex",
+              "Type": "checkbox",
+              "Name": "Instant Trap Stop Reflex",
+              "Description": "Immediately halts all moving party members the instant anyone spots an armed trap ahead.",
+              "Default": true,
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag0057g4a1dgb5e2g6f3a9c8b0057",
+                "DescriptionHandle": "h7d2e1b4ag0058g4a1dgb5e2g6f3a9c8b0058"
+              }
+            },
+            {
+              "Id": "AmbientAI_AutoWash",
+              "Type": "checkbox",
+              "Name": "Auto-Wash Blood & Dirt",
+              "Description": "Gently cleans blood and grime off the party shortly after combat and in Camp using native soap cleansing (no Wet status or puddles).",
+              "Default": true,
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag0059g4a1dgb5e2g6f3a9c8b0059",
+                "DescriptionHandle": "h7d2e1b4ag005ag4a1dgb5e2g6f3a9c8b005a"
+              }
+            }
+          ]
+        },
+        {
+          "SectionId": "AmbientAI_Interactions",
+          "SectionName": "Interactions & Safety",
+          "Handles": {
+            "NameHandle": "h7d2e1b4ag0014g4a1dgb5e2g6f3a9c8b0014"
+          },
+          "Settings": [
+            {
+              "Id": "AmbientAI_FieldTorch",
+              "Type": "checkbox",
+              "Name": "Smart Field Torchbearer",
+              "Description": "In pitch-dark areas, one companion (prioritizing heroes without Darkvision) automatically draws a mundane torch to light the party's path, and instantly restores their real weapon upon stealth, nearby enemies, combat, flammable hazards, or once room candles are lit. Coated/bound weapons are never swapped.",
+              "Default": true,
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag0079g4a1dgb5e2g6f3a9c8b0079",
+                "DescriptionHandle": "h7d2e1b4ag007ag4a1dgb5e2g6f3a9c8b007a"
+              }
+            },
+            {
+              "Id": "AmbientAI_LightSources",
+              "Type": "checkbox",
+              "Name": "Light Candles, Lamps & Sconces First",
+              "Description": "Companions prioritize lighting unlit candles, candlesticks, lamps, sconces, and braziers upon entering dark rooms before reading books (skips oil, grease, smokepowder, spiderwebs & nearby enemies).",
+              "Default": true,
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag0030g4a1dgb5e2g6f3a9c8b0030",
+                "DescriptionHandle": "h7d2e1b4ag0031g4a1dgb5e2g6f3a9c8b0031"
+              }
+            },
+            {
+              "Id": "AmbientAI_LootMode",
+              "Type": "enum",
+              "Name": "Looting Mode",
+              "Description": "Controls picking up unowned loose items and visually inspecting containers (ignores stolen items, story items, and camp decor).",
+              "Default": "Disabled",
+              "Options": {
+                "Choices": [
+                  "Disabled",
+                  "GoldOnly",
+                  "All"
+                ]
+              },
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag0032g4a1dgb5e2g6f3a9c8b0032",
+                "DescriptionHandle": "h7d2e1b4ag0033g4a1dgb5e2g6f3a9c8b0033",
+                "ChoicesHandles": [
+                  "h7d2e1b4ag0034g4a1dgb5e2g6f3a9c8b0034",
+                  "h7d2e1b4ag0035g4a1dgb5e2g6f3a9c8b0035",
+                  "h7d2e1b4ag0036g4a1dgb5e2g6f3a9c8b0036"
+                ]
+              }
+            },
+            {
+              "Id": "AmbientAI_AttackWalls",
+              "Type": "checkbox",
+              "Name": "Break Cracked Walls",
+              "Description": "Companions attack destructible cracked walls outside stealth (stops automatically if the wall resists damage).",
+              "Default": false,
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag0037g4a1dgb5e2g6f3a9c8b0037",
+                "DescriptionHandle": "h7d2e1b4ag0038g4a1dgb5e2g6f3a9c8b0038"
+              }
+            },
+            {
+              "Id": "AmbientAI_BedRegen",
+              "Type": "checkbox",
+              "Name": "Napping Restores Health",
+              "Description": "Companions slowly recover a small amount of HP when taking a nap on a bed.",
+              "Default": true,
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag0039g4a1dgb5e2g6f3a9c8b0039",
+                "DescriptionHandle": "h7d2e1b4ag003ag4a1dgb5e2g6f3a9c8b003a"
+              }
+            },
+            {
+              "Id": "AmbientAI_ReadingXP",
+              "Type": "checkbox",
+              "Name": "Reading Grants XP",
+              "Description": "If enabled, companions gain small XP rewards while reading books.",
+              "Default": false,
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag003bg4a1dgb5e2g6f3a9c8b003b",
+                "DescriptionHandle": "h7d2e1b4ag003cg4a1dgb5e2g6f3a9c8b003c"
+              }
+            }
+          ]
+        },
+        {
+          "SectionId": "AmbientAI_DebugSection",
+          "SectionName": "Debugging",
+          "Handles": {
+            "NameHandle": "h7d2e1b4ag0015g4a1dgb5e2g6f3a9c8b0015"
+          },
+          "Settings": [
+            {
+              "Id": "AmbientAI_Debug",
+              "Type": "checkbox",
+              "Name": "Debug Logging",
+              "Description": "Prints detailed Ambient AI logs to the Script Extender console.",
+              "Default": false,
+              "Handles": {
+                "NameHandle": "h7d2e1b4ag003dg4a1dgb5e2g6f3a9c8b003d",
+                "DescriptionHandle": "h7d2e1b4ag003eg4a1dgb5e2g6f3a9c8b003e"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+new entry "AmbientAI_Passive"
+type "PassiveData"
+data "DisplayName" "h7d2e1b4ag0001g4a1dgb5e2g6f3a9c8b0001;1"
+data "Description" "h7d2e1b4ag0002g4a1dgb5e2g6f3a9c8b0002;1"
+data "Icon" "Spell_Transmutation_DancingLights"
+data "Properties" "IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn"
+data "ToggleOnFunctors" "ApplyStatus(AMBIENT_AI_STATUS, 100, -1)"
+data "ToggleOffFunctors" "RemoveStatus(AMBIENT_AI_STATUS)"

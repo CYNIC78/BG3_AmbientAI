@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+    <content contentuid="h7d2e1b4ag0001g4a1dgb5e2g6f3a9c8b0001" version="1">앰비언트 AI</content>
+    <content contentuid="h7d2e1b4ag0002g4a1dgb5e2g6f3a9c8b0002" version="1">동료의 대기 행동을 켜거나 끕니다. 활성화 시, 동료들은 대기 상태일 때 조명, 가구, 책장, 훈련용 허수아비와 상호작용합니다.</content>
+    <content contentuid="h7d2e1b4ag0003g4a1dgb5e2g6f3a9c8b0003" version="1">앰비언트 AI 활성화됨</content>
+    <content contentuid="h7d2e1b4ag0004g4a1dgb5e2g6f3a9c8b0004" version="1">현재 이 캐릭터는 파티의 대기 행동을 허용하고 있습니다.</content>
+    <content contentuid="h7d2e1b4ag0005g4a1dgb5e2g6f3a9c8b0005" version="1">앰비언트 AI: 켜짐</content>
+    <content contentuid="h7d2e1b4ag0006g4a1dgb5e2g6f3a9c8b0006" version="1">앰비언트 AI: 꺼짐</content>
+    <content contentuid="h7d2e1b4ag0010g4a1dgb5e2g6f3a9c8b0010" version="1">Ambient AI</content>
+    <content contentuid="h7d2e1b4ag0011g4a1dgb5e2g6f3a9c8b0011" version="1">Living companions (v1.4.3.2): Smart Field Torchbearer, dark-room candle &amp; sconce priority, 3.5m Idle Anchor radius, Origin voices, smooth poses, 3-tier zone context, hero habits, and smart scavenging.</content>
+    <content contentuid="h7d2e1b4ag0012g4a1dgb5e2g6f3a9c8b0012" version="1">General</content>
+    <content contentuid="h7d2e1b4ag0013g4a1dgb5e2g6f3a9c8b0013" version="1">Core Behavior</content>
+    <content contentuid="h7d2e1b4ag0014g4a1dgb5e2g6f3a9c8b0014" version="1">Interactions &amp; Safety</content>
+    <content contentuid="h7d2e1b4ag0015g4a1dgb5e2g6f3a9c8b0015" version="1">Debugging</content>
+    <content contentuid="h7d2e1b4ag0020g4a1dgb5e2g6f3a9c8b0020" version="1">Active While Grouped (On Idle)</content>
+    <content contentuid="h7d2e1b4ag0021g4a1dgb5e2g6f3a9c8b0021" version="1">When enabled, even grouped (G) companions perform ambient behaviors after your character stands still, stay calm during small steps inside your Idle Anchor radius, and immediately return when you walk out of it.</content>
+    <content contentuid="h7d2e1b4ag0022g4a1dgb5e2g6f3a9c8b0022" version="1">Grouped Idle Delay (sec)</content>
+    <content contentuid="h7d2e1b4ag0023g4a1dgb5e2g6f3a9c8b0023" version="1">Seconds the player character must stand still before grouped companions start acting on their own.</content>
+    <content contentuid="h7d2e1b4ag0024g4a1dgb5e2g6f3a9c8b0024" version="1">Search &amp; Leash Radius (m)</content>
+    <content contentuid="h7d2e1b4ag0025g4a1dgb5e2g6f3a9c8b0025" version="1">Maximum distance (in meters from the leader) companions search for objects and wander.</content>
+    <content contentuid="h7d2e1b4ag0026g4a1dgb5e2g6f3a9c8b0026" version="1">Curiosity Cooldown (ms)</content>
+    <content contentuid="h7d2e1b4ag0027g4a1dgb5e2g6f3a9c8b0027" version="1">Minimum time between inspecting curiosities, globes, mirrors, and gravestones.</content>
+    <content contentuid="h7d2e1b4ag0028g4a1dgb5e2g6f3a9c8b0028" version="1">Idle Animation Frequency</content>
+    <content contentuid="h7d2e1b4ag0029g4a1dgb5e2g6f3a9c8b0029" version="1">Probability (0.0 - 1.0) of playing a character-specific idle animation instead of wandering.</content>
+    <content contentuid="h7d2e1b4ag0030g4a1dgb5e2g6f3a9c8b0030" version="1">촛불·촛대·램프 우선 점화</content>
+    <content contentuid="h7d2e1b4ag0031g4a1dgb5e2g6f3a9c8b0031" version="1">어두운 방에 들어서면 어둠 속에서 책을 읽는 대신 촛불, 촛대, 램프, 벽등, 화로를 먼저 켭니다 (기름·그리스·화약·거미줄·근처 적 회피).</content>
+    <content contentuid="h7d2e1b4ag0032g4a1dgb5e2g6f3a9c8b0032" version="1">Looting Mode</content>
+    <content contentuid="h7d2e1b4ag0033g4a1dgb5e2g6f3a9c8b0033" version="1">Controls picking up unowned loose items and visually inspecting containers (ignores stolen items, story items, and camp decor).</content>
+    <content contentuid="h7d2e1b4ag0034g4a1dgb5e2g6f3a9c8b0034" version="1">Disabled (Pure Immersion)</content>
+    <content contentuid="h7d2e1b4ag0035g4a1dgb5e2g6f3a9c8b0035" version="1">Gold &amp; Maps Only</content>
+    <content contentuid="h7d2e1b4ag0036g4a1dgb5e2g6f3a9c8b0036" version="1">All (Pickup + Inspect Containers)</content>
+    <content contentuid="h7d2e1b4ag0037g4a1dgb5e2g6f3a9c8b0037" version="1">Break Cracked Walls</content>
+    <content contentuid="h7d2e1b4ag0038g4a1dgb5e2g6f3a9c8b0038" version="1">Companions attack destructible cracked walls outside stealth (stops automatically if the wall resists damage).</content>
+    <content contentuid="h7d2e1b4ag0039g4a1dgb5e2g6f3a9c8b0039" version="1">Napping Restores Health</content>
+    <content contentuid="h7d2e1b4ag003ag4a1dgb5e2g6f3a9c8b003a" version="1">Companions slowly recover a small amount of HP when taking a nap on a bed.</content>
+    <content contentuid="h7d2e1b4ag003bg4a1dgb5e2g6f3a9c8b003b" version="1">Reading Grants XP</content>
+    <content contentuid="h7d2e1b4ag003cg4a1dgb5e2g6f3a9c8b003c" version="1">If enabled, companions gain small XP rewards while reading books.</content>
+    <content contentuid="h7d2e1b4ag003dg4a1dgb5e2g6f3a9c8b003d" version="1">Debug Logging</content>
+    <content contentuid="h7d2e1b4ag003eg4a1dgb5e2g6f3a9c8b003e" version="1">Prints detailed Ambient AI logs to the Script Extender console.</content>
+    <content contentuid="h7d2e1b4ag0040g4a1dgb5e2g6f3a9c8b0040" version="1">Living Party (Smart Ambient)</content>
+    <content contentuid="h7d2e1b4ag0041g4a1dgb5e2g6f3a9c8b0041" version="1">동료 성격 및 고유 습관</content>
+    <content contentuid="h7d2e1b4ag0042g4a1dgb5e2g6f3a9c8b0042" version="1">오리진 동료마다 어울리는 행동을 우선합니다 (게일: 책장·망원경·지구본, 아스타리온: 거울·예술품, 섀도하트: 펫·촛불, 레이젤·카를라크: 훈련 허수아비·경계).</content>
+    <content contentuid="h7d2e1b4ag0043g4a1dgb5e2g6f3a9c8b0043" version="1">React to Bard Music</content>
+    <content contentuid="h7d2e1b4ag0044g4a1dgb5e2g6f3a9c8b0044" version="1">Dance and applause animations only play when someone nearby performs music — companions gather, face the musician, clap, and dance.</content>
+    <content contentuid="h7d2e1b4ag0045g4a1dgb5e2g6f3a9c8b0045" version="1">3단계 지역 맥락 (야영지 / 마을 / 던전)</content>
+    <content contentuid="h7d2e1b4ag0046g4a1dgb5e2g6f3a9c8b0046" version="1">야영지(모닥불·대화·휴식), 마을/선술집(예술품·벤치), 던전/위험 구역(경계 유지·횃불 점화·바닥 취침 금지)에 맞춰 행동합니다.</content>
+    <content contentuid="h7d2e1b4ag0047g4a1dgb5e2g6f3a9c8b0047" version="1">Companion Chatting &amp; Pets</content>
+    <content contentuid="h7d2e1b4ag0048g4a1dgb5e2g6f3a9c8b0048" version="1">Companions occasionally socialize with each other by the fire and greet Scratch or the Owlbear Cub when nearby.</content>
+    <content contentuid="h7d2e1b4ag0049g4a1dgb5e2g6f3a9c8b0049" version="1">반응형 동료 음성</content>
+    <content contentuid="h7d2e1b4ag004ag4a1dgb5e2g6f3a9c8b004a" version="1">주인공의 단독 탐험 대사(_PAD_ / _VB_)를 근처 동료에게 전달하여 라리안 순정 음성 대사를 재생합니다.</content>
+    <content contentuid="h7d2e1b4ag004bg4a1dgb5e2g6f3a9c8b004b" version="1">동료 대사 비율 (%)</content>
+    <content contentuid="h7d2e1b4ag004cg4a1dgb5e2g6f3a9c8b004c" version="1">주인공 대신 근처 동료가 발견물이나 장소를 언급할 확률입니다 (기본값 80%).</content>
+    <content contentuid="h7d2e1b4ag0050g4a1dgb5e2g6f3a9c8b0050" version="1">스마트 탐험 (피로도 감소)</content>
+    <content contentuid="h7d2e1b4ag0051g4a1dgb5e2g6f3a9c8b0051" version="1">스마트 전리품 수집 및 야영지 분류</content>
+    <content contentuid="h7d2e1b4ag0052g4a1dgb5e2g6f3a9c8b0052" version="1">Companions inspect unlocked minor containers (vases, crates, sacks, barrels — leaving chests to you) and loose items: collect gold, tools, and alchemy, send fresh food and valuable trade goods straight to your Camp Chest, ignore 1-gold clutter, and call out scrolls, potions, books, keys, and gear.</content>
+    <content contentuid="h7d2e1b4ag0053g4a1dgb5e2g6f3a9c8b0053" version="1">상인 거래 시 야영지 귀중품 자동 판매</content>
+    <content contentuid="h7d2e1b4ag0054g4a1dgb5e2g6f3a9c8b0054" version="1">When you open trade with any merchant, automatically sells scavenged valuables stored in your Camp Chest (goblets, silverware, gems, ingots) up to the merchant's actual gold supply.</content>
+    <content contentuid="h7d2e1b4ag0055g4a1dgb5e2g6f3a9c8b0055" version="1">Min Trade Good Value (Gold)</content>
+    <content contentuid="h7d2e1b4ag0056g4a1dgb5e2g6f3a9c8b0056" version="1">Minimum base gold value for common trade goods (silverware, goblets, ingots) to be collected for camp auto-sell instead of ignored as clutter (default 10g).</content>
+    <content contentuid="h7d2e1b4ag0057g4a1dgb5e2g6f3a9c8b0057" version="1">함정 발견 시 파티 즉시 정지</content>
+    <content contentuid="h7d2e1b4ag0058g4a1dgb5e2g6f3a9c8b0058" version="1">Immediately halts all moving party members the instant anyone spots an armed trap ahead.</content>
+    <content contentuid="h7d2e1b4ag0059g4a1dgb5e2g6f3a9c8b0059" version="1">피와 먼지 자동 세척</content>
+    <content contentuid="h7d2e1b4ag005ag4a1dgb5e2g6f3a9c8b005a" version="1">Gently cleans blood and grime off the party shortly after combat and in Camp using native soap cleansing (no Wet status or puddles).</content>
+    <content contentuid="h7d2e1b4ag0060g4a1dgb5e2g6f3a9c8b0060" version="1">조심해, 함정이야! 멈춰!</content>
+    <content contentuid="h7d2e1b4ag0061g4a1dgb5e2g6f3a9c8b0061" version="1">Found equipment here — take a look!</content>
+    <content contentuid="h7d2e1b4ag0062g4a1dgb5e2g6f3a9c8b0062" version="1">Potion or scroll over here!</content>
+    <content contentuid="h7d2e1b4ag0063g4a1dgb5e2g6f3a9c8b0063" version="1">Key or writings here — check this!</content>
+    <content contentuid="h7d2e1b4ag0064g4a1dgb5e2g6f3a9c8b0064" version="1">Something special right here!</content>
+    <content contentuid="h7d2e1b4ag0065g4a1dgb5e2g6f3a9c8b0065" version="1">야영지 보관품 판매: %d개 (+%d 골드)</content>
+    <content contentuid="h7d2e1b4ag0066g4a1dgb5e2g6f3a9c8b0066" version="1">Supplies sent to Camp</content>
+    <content contentuid="h7d2e1b4ag0070g4a1dgb5e2g6f3a9c8b0070" version="1">행동 및 롤플레잉 음성</content>
+    <content contentuid="h7d2e1b4ag0071g4a1dgb5e2g6f3a9c8b0071" version="1">동료들이 상자 수색, 아이템 줍기, 독서, 휴식, 펫 인사, 중요 발견 알림 시 라리안 순정 음성을 자연스럽게 말합니다 (은신, 전투, 대화 중 자동 음소거).</content>
+    <content contentuid="h7d2e1b4ag0072g4a1dgb5e2g6f3a9c8b0072" version="1">행동 음성 대기시간 (초)</content>
+    <content contentuid="h7d2e1b4ag0073g4a1dgb5e2g6f3a9c8b0073" version="1">파티 전체 행동 음성 사이의 평균 최소 간격(초)으로 대사가 겹치거나 반복되지 않도록 합니다 (기본값 24초).</content>
+    <content contentuid="h7d2e1b4ag0074g4a1dgb5e2g6f3a9c8b0074" version="1">격전 후 한숨 돌리기 및 짧은 휴식 알림</content>
+    <content contentuid="h7d2e1b4ag0075g4a1dgb5e2g6f3a9c8b0075" version="1">격전 후 부상당한 동료가 지친 음성을 말하며 사용 가능한 짧은 휴식이 있으면 자연스럽게 알려줍니다.</content>
+    <content contentuid="h7d2e1b4ag0076g4a1dgb5e2g6f3a9c8b0076" version="1">숨 좀 돌리자... (짧은 휴식 가능)</content>
+    <content contentuid="h7d2e1b4ag0077g4a1dgb5e2g6f3a9c8b0077" version="1">대기 앵커 반경 (m)</content>
+    <content contentuid="h7d2e1b4ag0078g4a1dgb5e2g6f3a9c8b0078" version="1">정지 지점 주변에서 짧은 이동을 해도 동료의 대기 행동이 끊기지 않는 반경입니다 (0 = 조금만 움직여도 즉시 복귀).</content>
+    <content contentuid="h7d2e1b4ag0079g4a1dgb5e2g6f3a9c8b0079" version="1">스마트 횃불 기수</content>
+    <content contentuid="h7d2e1b4ag007ag4a1dgb5e2g6f3a9c8b007a" version="1">칠흑 같은 어둠 속에서 암시야가 없는 동료 한 명이 자동으로 일반 횃불을 들어 길을 밝히고, 은신·적 발견·전투·인화성 위험물 또는 방의 촛불이 켜지면 즉시 원래 무기로 되돌립니다.</content>
+</contentList>

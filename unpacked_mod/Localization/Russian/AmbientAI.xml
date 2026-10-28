@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+    <content contentuid="h7d2e1b4ag0001g4a1dgb5e2g6f3a9c8b0001" version="1">Фоновый ИИ</content>
+    <content contentuid="h7d2e1b4ag0002g4a1dgb5e2g6f3a9c8b0002" version="1">Переключите, чтобы включить или отключить самостоятельные действия спутников вне боя. Когда активно, спутники зажигают светильники, отдыхают на мебели, читают книги у полок, рассматривают картины и тренируются на манекенах.</content>
+    <content contentuid="h7d2e1b4ag0003g4a1dgb5e2g6f3a9c8b0003" version="1">Фоновый ИИ активен</content>
+    <content contentuid="h7d2e1b4ag0004g4a1dgb5e2g6f3a9c8b0004" version="1">Спутникам разрешено самостоятельно взаимодействовать с окружением во время простоя.</content>
+    <content contentuid="h7d2e1b4ag0005g4a1dgb5e2g6f3a9c8b0005" version="1">Фоновый ИИ: ВКЛ</content>
+    <content contentuid="h7d2e1b4ag0006g4a1dgb5e2g6f3a9c8b0006" version="1">Фоновый ИИ: ВЫКЛ</content>
+    <content contentuid="h7d2e1b4ag0010g4a1dgb5e2g6f3a9c8b0010" version="1">Фоновый ИИ (Ambient AI)</content>
+    <content contentuid="h7d2e1b4ag0011g4a1dgb5e2g6f3a9c8b0011" version="1">Живой отряд (v1.4.3.2): умный походный факелоносец, приоритет зажигания свечей в темноте, якорный радиус простоя (3.5 м), голоса сюжетных героев, плавные позы, 3 режима зоны, привычки героев и умный сбор.</content>
+    <content contentuid="h7d2e1b4ag0012g4a1dgb5e2g6f3a9c8b0012" version="1">Общие</content>
+    <content contentuid="h7d2e1b4ag0013g4a1dgb5e2g6f3a9c8b0013" version="1">Основные параметры</content>
+    <content contentuid="h7d2e1b4ag0014g4a1dgb5e2g6f3a9c8b0014" version="1">Взаимодействия и безопасность</content>
+    <content contentuid="h7d2e1b4ag0015g4a1dgb5e2g6f3a9c8b0015" version="1">Отладка</content>
+    <content contentuid="h7d2e1b4ag0020g4a1dgb5e2g6f3a9c8b0020" version="1">Работать в сцепке (при простое)</content>
+    <content contentuid="h7d2e1b4ag0021g4a1dgb5e2g6f3a9c8b0021" version="1">Даже привязанные в группу (G) спутники начинают заниматься делами, когда ваш герой стоит на месте, не срываются с мест от пары ваших шагов внутри Якорного радиуса и сразу возвращаются в строй, когда вы уходите дальше.</content>
+    <content contentuid="h7d2e1b4ag0022g4a1dgb5e2g6f3a9c8b0022" version="1">Задержка простоя в сцепке (сек)</content>
+    <content contentuid="h7d2e1b4ag0023g4a1dgb5e2g6f3a9c8b0023" version="1">Сколько секунд главный герой должен простоять без движения, прежде чем сцепленные спутники начнут действовать.</content>
+    <content contentuid="h7d2e1b4ag0024g4a1dgb5e2g6f3a9c8b0024" version="1">Радиус поиска и поводка (м)</content>
+    <content contentuid="h7d2e1b4ag0025g4a1dgb5e2g6f3a9c8b0025" version="1">Максимальное расстояние (в метрах от лидера), на котором спутники ищут объекты и гуляют.</content>
+    <content contentuid="h7d2e1b4ag0026g4a1dgb5e2g6f3a9c8b0026" version="1">Пауза между осмотрами (мс)</content>
+    <content contentuid="h7d2e1b4ag0027g4a1dgb5e2g6f3a9c8b0027" version="1">Минимальный интервал времени между осмотром диковинок, глобусов, зеркал и надгробий.</content>
+    <content contentuid="h7d2e1b4ag0028g4a1dgb5e2g6f3a9c8b0028" version="1">Частота личных анимаций</content>
+    <content contentuid="h7d2e1b4ag0029g4a1dgb5e2g6f3a9c8b0029" version="1">Вероятность (0.0 – 1.0) проигрывания характерной анимации спутника вместо обычной прогулки.</content>
+    <content contentuid="h7d2e1b4ag0030g4a1dgb5e2g6f3a9c8b0030" version="1">Сначала зажигать свечи, подсвечники и лампы</content>
+    <content contentuid="h7d2e1b4ag0031g4a1dgb5e2g6f3a9c8b0031" version="1">При входе в тёмные комнаты спутники сперва бодро зажигают свечи, канделябры, лампы, бра и жаровни, а не читают книги в темноте (обходит масло, жир, порох, паутину и врагов поблизости).</content>
+    <content contentuid="h7d2e1b4ag0032g4a1dgb5e2g6f3a9c8b0032" version="1">Режим сбора предметов</content>
+    <content contentuid="h7d2e1b4ag0033g4a1dgb5e2g6f3a9c8b0033" version="1">Управляет подбором бесхозных предметов с пола и визуальным осмотром контейнеров (не трогает чужие вещи, квестовые предметы и декор в лагере).</content>
+    <content contentuid="h7d2e1b4ag0034g4a1dgb5e2g6f3a9c8b0034" version="1">Выключено (чистый ролеплей)</content>
+    <content contentuid="h7d2e1b4ag0035g4a1dgb5e2g6f3a9c8b0035" version="1">Только золото и карты</content>
+    <content contentuid="h7d2e1b4ag0036g4a1dgb5e2g6f3a9c8b0036" version="1">Всё (подбор + осмотр ящиков)</content>
+    <content contentuid="h7d2e1b4ag0037g4a1dgb5e2g6f3a9c8b0037" version="1">Ломать треснувшие стены</content>
+    <content contentuid="h7d2e1b4ag0038g4a1dgb5e2g6f3a9c8b0038" version="1">Спутники атакуют разрушаемые треснувшие стены вне скрытности (прекращают бить, если стена не получает урона).</content>
+    <content contentuid="h7d2e1b4ag0039g4a1dgb5e2g6f3a9c8b0039" version="1">Отдых лечит здоровье</content>
+    <content contentuid="h7d2e1b4ag003ag4a1dgb5e2g6f3a9c8b003a" version="1">Лёгкое восстановление здоровья, когда спутник прилёг вздремнуть на кровать.</content>
+    <content contentuid="h7d2e1b4ag003bg4a1dgb5e2g6f3a9c8b003b" version="1">Опыт за чтение книг</content>
+    <content contentuid="h7d2e1b4ag003cg4a1dgb5e2g6f3a9c8b003c" version="1">Если включено, спутники получают небольшое количество опыта во время чтения книг.</content>
+    <content contentuid="h7d2e1b4ag003dg4a1dgb5e2g6f3a9c8b003d" version="1">Логи отладки (SE Console)</content>
+    <content contentuid="h7d2e1b4ag003eg4a1dgb5e2g6f3a9c8b003e" version="1">Выводить подробные сообщения о работе Фонового ИИ в консоль Script Extender.</content>
+    <content contentuid="h7d2e1b4ag0040g4a1dgb5e2g6f3a9c8b0040" version="1">Живой отряд (Умный эмбиент)</content>
+    <content contentuid="h7d2e1b4ag0041g4a1dgb5e2g6f3a9c8b0041" version="1">Характеры и фирменные привычки героев</content>
+    <content contentuid="h7d2e1b4ag0042g4a1dgb5e2g6f3a9c8b0042" version="1">Каждый сюжетный спутник первым тянется к любимым занятиям (Гейл — к книгам, телескопам и глобусам; Астарион — к зеркалам и картинам; Шадоухарт — к питомцам и свечам; Лаэзель и Карлах — к манекенам и дозору).</content>
+    <content contentuid="h7d2e1b4ag0043g4a1dgb5e2g6f3a9c8b0043" version="1">Живая реакция на музыку барда</content>
+    <content contentuid="h7d2e1b4ag0044g4a1dgb5e2g6f3a9c8b0044" version="1">Танцы и аплодисменты включаются только тогда, когда рядом реально звучит музыка — спутники подходят ближе, поворачиваются к барду, хлопают и пританцовывают.</content>
+    <content contentuid="h7d2e1b4ag0045g4a1dgb5e2g6f3a9c8b0045" version="1">Контекст зоны: Лагерь / Поселение / Подземелье</content>
+    <content contentuid="h7d2e1b4ag0046g4a1dgb5e2g6f3a9c8b0046" version="1">Меняет поведение отряда по обстановке: в Лагере — отдых у огня, беседы, питомцы без обыска ящиков; в Городах и тавернах — картины, редкости и лавки; в Подземельях и опасных зонах — собранность, зажигание факелов и никакого сна на полу.</content>
+    <content contentuid="h7d2e1b4ag0047g4a1dgb5e2g6f3a9c8b0047" version="1">Общение между собой и питомцы</content>
+    <content contentuid="h7d2e1b4ag0048g4a1dgb5e2g6f3a9c8b0048" version="1">Спутники иногда подходят поболтать друг с другом у огня и здороваются со Шкрябом или Медвесычиком.</content>
+    <content contentuid="h7d2e1b4ag0049g4a1dgb5e2g6f3a9c8b0049" version="1">Озвученные реплики спутников</content>
+    <content contentuid="h7d2e1b4ag004ag4a1dgb5e2g6f3a9c8b004a" version="1">Передаёт одиночные исследовательские реплики главного героя (_PAD_ / _VB_) ближайшим живым спутникам с их оригинальной озвучкой Larian.</content>
+    <content contentuid="h7d2e1b4ag004bg4a1dgb5e2g6f3a9c8b004b" version="1">Доля реплик спутников (%)</content>
+    <content contentuid="h7d2e1b4ag004cg4a1dgb5e2g6f3a9c8b004c" version="1">Вероятность того, что находку или локацию вслух прокомментирует спутник рядом, а не главный герой (по умолчанию 80%).</content>
+    <content contentuid="h7d2e1b4ag0050g4a1dgb5e2g6f3a9c8b0050" version="1">Умное исследование (Анти-духота)</content>
+    <content contentuid="h7d2e1b4ag0051g4a1dgb5e2g6f3a9c8b0051" version="1">Умный сбор припасов и трофеев</content>
+    <content contentuid="h7d2e1b4ag0052g4a1dgb5e2g6f3a9c8b0052" version="1">Спутники проверяют незапертые мелкие ёмкости (вазы, ящики, мешки, бочки, оставляя сундуки вам) и предметы рядом: берут золото, отмычки и алхимию, отправляют свежую еду и ценные трофеи сразу в Сундук лагеря, игнорируют 1-копеечный хлам (вёдра, бутылки) и зовут вас, если нашли свитки, зелья, книги, ключи или снаряжение.</content>
+    <content contentuid="h7d2e1b4ag0053g4a1dgb5e2g6f3a9c8b0053" version="1">Автопродажа трофеев из лагеря торговцам</content>
+    <content contentuid="h7d2e1b4ag0054g4a1dgb5e2g6f3a9c8b0054" version="1">При открытии торговли с любым купцом автоматически продаёт накопленные в Сундуке лагеря трофеи (кубки, серебро, самоцветы, слитки) в пределах реального запаса золота торговца.</content>
+    <content contentuid="h7d2e1b4ag0055g4a1dgb5e2g6f3a9c8b0055" version="1">Мин. ценность трофея на продажу (зол.)</content>
+    <content contentuid="h7d2e1b4ag0056g4a1dgb5e2g6f3a9c8b0056" version="1">Минимальная базовая цена обычного предмета (посуда, слитки, безделушки), чтобы спутники забрали его на продажу, а не игнорировали как мусор (по умолчанию 10 зол.).</content>
+    <content contentuid="h7d2e1b4ag0057g4a1dgb5e2g6f3a9c8b0057" version="1">Стоп-рефлекс отряда при ловушке</content>
+    <content contentuid="h7d2e1b4ag0058g4a1dgb5e2g6f3a9c8b0058" version="1">Мгновенно останавливает движение всех членов отряда в ту же долю секунды, когда кто-то замечает взведённую ловушку.</content>
+    <content contentuid="h7d2e1b4ag0059g4a1dgb5e2g6f3a9c8b0059" version="1">Авто-умывание от крови и грязи</content>
+    <content contentuid="h7d2e1b4ag005ag4a1dgb5e2g6f3a9c8b005a" version="1">Спустя несколько секунд после боя и в Лагере аккуратно очищает отряд от крови и грязи нативным эффектом мыла (без статуса Намокания и луж).</content>
+    <content contentuid="h7d2e1b4ag0060g4a1dgb5e2g6f3a9c8b0060" version="1">Осторожно, ловушка! Стоп!</content>
+    <content contentuid="h7d2e1b4ag0061g4a1dgb5e2g6f3a9c8b0061" version="1">Тут снаряжение — взгляни!</content>
+    <content contentuid="h7d2e1b4ag0062g4a1dgb5e2g6f3a9c8b0062" version="1">Тут зелье или свиток!</content>
+    <content contentuid="h7d2e1b4ag0063g4a1dgb5e2g6f3a9c8b0063" version="1">Тут ключ или записи — проверь!</content>
+    <content contentuid="h7d2e1b4ag0064g4a1dgb5e2g6f3a9c8b0064" version="1">Ого, тут ценная находка!</content>
+    <content contentuid="h7d2e1b4ag0065g4a1dgb5e2g6f3a9c8b0065" version="1">Сбыто из лагеря: %d шт. (+%d зол.)</content>
+    <content contentuid="h7d2e1b4ag0066g4a1dgb5e2g6f3a9c8b0066" version="1">Припасы отправлены в лагерь</content>
+    <content contentuid="h7d2e1b4ag0070g4a1dgb5e2g6f3a9c8b0070" version="1">Озвучка действий и отыгрыша</content>
+    <content contentuid="h7d2e1b4ag0071g4a1dgb5e2g6f3a9c8b0071" version="1">Спутники комментируют обыск ёмкостей, сбор предметов, важные находки, чтение книг, осмотр редкостей, отдых у костра, питомцев и общение родными студийными репликами из игры (автоматически замолкают в скрытности, в бою и во время диалогов).</content>
+    <content contentuid="h7d2e1b4ag0072g4a1dgb5e2g6f3a9c8b0072" version="1">Пауза между репликами действий (сек)</content>
+    <content contentuid="h7d2e1b4ag0073g4a1dgb5e2g6f3a9c8b0073" version="1">Средний минимальный интервал в секундах между голосовыми репликами действий по всему отряду, чтобы спутники никогда не перебивали друг друга и не частили (по умолчанию 24 сек).</content>
+    <content contentuid="h7d2e1b4ag0074g4a1dgb5e2g6f3a9c8b0074" version="1">Живая передышка после тяжёлого боя</content>
+    <content contentuid="h7d2e1b4ag0075g4a1dgb5e2g6f3a9c8b0075" version="1">После тяжёлой схватки израненный спутник переводит дух родной голосовой репликой и ненавязчиво напоминает, если у отряда остались неиспользованные Короткие отдыхи.</content>
+    <content contentuid="h7d2e1b4ag0076g4a1dgb5e2g6f3a9c8b0076" version="1">Перевести бы дух... (доступен Короткий отдых)</content>
+    <content contentuid="h7d2e1b4ag0077g4a1dgb5e2g6f3a9c8b0077" version="1">Якорный радиус простоя (м)</content>
+    <content contentuid="h7d2e1b4ag0078g4a1dgb5e2g6f3a9c8b0078" version="1">Радиус (в метрах) вокруг точки остановки, внутри которого ваши мелкие перебежки НЕ прерывают занятия спутников и не сбрасывают таймер простоя (0 = прерывать от любого шага).</content>
+    <content contentuid="h7d2e1b4ag0079g4a1dgb5e2g6f3a9c8b0079" version="1">Походный факелоносец в темноте</content>
+    <content contentuid="h7d2e1b4ag007ag4a1dgb5e2g6f3a9c8b007a" version="1">В полной темноте один спутник (в первую очередь без ночного зрения) сам достаёт обычный факел из рюкзака отряда и освещает путь. Мгновенно возвращает родное оружие при скрытности, появлении врагов, начале боя, рядом с маслом/газом или когда комнату осветили свечами. Оружие с ядом или чарами не затрагивается.</content>
+</contentList>

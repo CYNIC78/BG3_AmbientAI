@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="331"/>
+    <region id="Config">
+        <node id="root">
+            <children>
+                <node id="Dependencies"/>
+                <node id="ModuleInfo">
+                    <attribute id="Author" type="LSString" value="ExcelsiorOne"/>
+                    <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
+                    <attribute id="Description" type="LSString" value="Ambient AI Build 04.3.2 (Multi-Engine Candle/Sconce/Lamp Ignition, Grouped Action Lock, Multi-Elevation Navmesh &amp; Zero-Spike Spatial Index v1.4.3.2)."/>
+                    <attribute id="Folder" type="LSString" value="AmbientAI"/>
+                    <attribute id="GMTemplate" type="FixedString" value=""/>
+                    <attribute id="LobbyLevelName" type="FixedString" value=""/>
+                    <attribute id="MD5" type="LSString" value=""/>
+                    <attribute id="MainMenuBackgroundVideo" type="FixedString" value=""/>
+                    <attribute id="MenuLevelName" type="FixedString" value=""/>
+                    <attribute id="Name" type="FixedString" value="AmbientAI"/>
+                    <attribute id="NumPlayers" type="uint8" value="4"/>
+                    <attribute id="PhotoBooth" type="FixedString" value=""/>
+                    <attribute id="StartupLevelName" type="FixedString" value=""/>
+                    <attribute id="Tags" type="LSString" value=""/>
+                    <attribute id="Type" type="FixedString" value="Add-on"/>
+                    <attribute id="UUID" type="FixedString" value="7d2e1b4a-9c8f-4a1d-b5e2-6f3a9c8b1d4e"/>
+                    <attribute id="Version64" type="int64" value="36591753414836226"/>
+                    <children>
+                        <node id="PublishVersion">
+                            <attribute id="Version64" type="int64" value="36591753414836226"/>
+                        </node>
+                        <node id="Scripts"/>
+                        <node id="TargetModes">
+                            <children>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

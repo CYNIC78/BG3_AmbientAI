@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+    <content contentuid="h7d2e1b4ag0001g4a1dgb5e2g6f3a9c8b0001" version="1">IA Ambiental</content>
+    <content contentuid="h7d2e1b4ag0002g4a1dgb5e2g6f3a9c8b0002" version="1">Alternar para habilitar o deshabilitar los comportamientos de inactividad de los compañeros. Cuando está activo, los compañeros interactuarán con luces, muebles, libros y maniquíes de entrenamiento.</content>
+    <content contentuid="h7d2e1b4ag0003g4a1dgb5e2g6f3a9c8b0003" version="1">IA Ambiental Activa</content>
+    <content contentuid="h7d2e1b4ag0004g4a1dgb5e2g6f3a9c8b0004" version="1">Este personaje permite actualmente comportamientos de inactividad para el grupo.</content>
+    <content contentuid="h7d2e1b4ag0005g4a1dgb5e2g6f3a9c8b0005" version="1">IA Ambiental: ACTIVADA</content>
+    <content contentuid="h7d2e1b4ag0006g4a1dgb5e2g6f3a9c8b0006" version="1">IA Ambiental: DESACTIVADA</content>
+    <content contentuid="h7d2e1b4ag0010g4a1dgb5e2g6f3a9c8b0010" version="1">Ambient AI</content>
+    <content contentuid="h7d2e1b4ag0011g4a1dgb5e2g6f3a9c8b0011" version="1">Living companions (v1.4.3.2): Smart Field Torchbearer, dark-room candle &amp; sconce priority, 3.5m Idle Anchor radius, Origin voices, smooth poses, 3-tier zone context, hero habits, and smart scavenging.</content>
+    <content contentuid="h7d2e1b4ag0012g4a1dgb5e2g6f3a9c8b0012" version="1">General</content>
+    <content contentuid="h7d2e1b4ag0013g4a1dgb5e2g6f3a9c8b0013" version="1">Core Behavior</content>
+    <content contentuid="h7d2e1b4ag0014g4a1dgb5e2g6f3a9c8b0014" version="1">Interactions &amp; Safety</content>
+    <content contentuid="h7d2e1b4ag0015g4a1dgb5e2g6f3a9c8b0015" version="1">Debugging</content>
+    <content contentuid="h7d2e1b4ag0020g4a1dgb5e2g6f3a9c8b0020" version="1">Active While Grouped (On Idle)</content>
+    <content contentuid="h7d2e1b4ag0021g4a1dgb5e2g6f3a9c8b0021" version="1">When enabled, even grouped (G) companions perform ambient behaviors after your character stands still, stay calm during small steps inside your Idle Anchor radius, and immediately return when you walk out of it.</content>
+    <content contentuid="h7d2e1b4ag0022g4a1dgb5e2g6f3a9c8b0022" version="1">Grouped Idle Delay (sec)</content>
+    <content contentuid="h7d2e1b4ag0023g4a1dgb5e2g6f3a9c8b0023" version="1">Seconds the player character must stand still before grouped companions start acting on their own.</content>
+    <content contentuid="h7d2e1b4ag0024g4a1dgb5e2g6f3a9c8b0024" version="1">Search &amp; Leash Radius (m)</content>
+    <content contentuid="h7d2e1b4ag0025g4a1dgb5e2g6f3a9c8b0025" version="1">Maximum distance (in meters from the leader) companions search for objects and wander.</content>
+    <content contentuid="h7d2e1b4ag0026g4a1dgb5e2g6f3a9c8b0026" version="1">Curiosity Cooldown (ms)</content>
+    <content contentuid="h7d2e1b4ag0027g4a1dgb5e2g6f3a9c8b0027" version="1">Minimum time between inspecting curiosities, globes, mirrors, and gravestones.</content>
+    <content contentuid="h7d2e1b4ag0028g4a1dgb5e2g6f3a9c8b0028" version="1">Idle Animation Frequency</content>
+    <content contentuid="h7d2e1b4ag0029g4a1dgb5e2g6f3a9c8b0029" version="1">Probability (0.0 - 1.0) of playing a character-specific idle animation instead of wandering.</content>
+    <content contentuid="h7d2e1b4ag0030g4a1dgb5e2g6f3a9c8b0030" version="1">Encender velas, lámparas y apliques primero</content>
+    <content contentuid="h7d2e1b4ag0031g4a1dgb5e2g6f3a9c8b0031" version="1">En salas oscuras, los compañeros priorizan encender velas, candelabros, lámparas y braseros antes de leer a oscuras (evita aceite, grasa, pólvora, telarañas y enemigos cercanos).</content>
+    <content contentuid="h7d2e1b4ag0032g4a1dgb5e2g6f3a9c8b0032" version="1">Looting Mode</content>
+    <content contentuid="h7d2e1b4ag0033g4a1dgb5e2g6f3a9c8b0033" version="1">Controls picking up unowned loose items and visually inspecting containers (ignores stolen items, story items, and camp decor).</content>
+    <content contentuid="h7d2e1b4ag0034g4a1dgb5e2g6f3a9c8b0034" version="1">Disabled (Pure Immersion)</content>
+    <content contentuid="h7d2e1b4ag0035g4a1dgb5e2g6f3a9c8b0035" version="1">Gold &amp; Maps Only</content>
+    <content contentuid="h7d2e1b4ag0036g4a1dgb5e2g6f3a9c8b0036" version="1">All (Pickup + Inspect Containers)</content>
+    <content contentuid="h7d2e1b4ag0037g4a1dgb5e2g6f3a9c8b0037" version="1">Break Cracked Walls</content>
+    <content contentuid="h7d2e1b4ag0038g4a1dgb5e2g6f3a9c8b0038" version="1">Companions attack destructible cracked walls outside stealth (stops automatically if the wall resists damage).</content>
+    <content contentuid="h7d2e1b4ag0039g4a1dgb5e2g6f3a9c8b0039" version="1">Napping Restores Health</content>
+    <content contentuid="h7d2e1b4ag003ag4a1dgb5e2g6f3a9c8b003a" version="1">Companions slowly recover a small amount of HP when taking a nap on a bed.</content>
+    <content contentuid="h7d2e1b4ag003bg4a1dgb5e2g6f3a9c8b003b" version="1">Reading Grants XP</content>
+    <content contentuid="h7d2e1b4ag003cg4a1dgb5e2g6f3a9c8b003c" version="1">If enabled, companions gain small XP rewards while reading books.</content>
+    <content contentuid="h7d2e1b4ag003dg4a1dgb5e2g6f3a9c8b003d" version="1">Debug Logging</content>
+    <content contentuid="h7d2e1b4ag003eg4a1dgb5e2g6f3a9c8b003e" version="1">Prints detailed Ambient AI logs to the Script Extender console.</content>
+    <content contentuid="h7d2e1b4ag0040g4a1dgb5e2g6f3a9c8b0040" version="1">Living Party (Smart Ambient)</content>
+    <content contentuid="h7d2e1b4ag0041g4a1dgb5e2g6f3a9c8b0041" version="1">Personalidades y hábitos únicos</content>
+    <content contentuid="h7d2e1b4ag0042g4a1dgb5e2g6f3a9c8b0042" version="1">Cada compañero prioriza sus aficiones (Gale: libros y globos; Astarion: espejos y arte; Corazón Sombrío: mascotas y velas; Lae'zel y Karlach: muñecos y guardia).</content>
+    <content contentuid="h7d2e1b4ag0043g4a1dgb5e2g6f3a9c8b0043" version="1">React to Bard Music</content>
+    <content contentuid="h7d2e1b4ag0044g4a1dgb5e2g6f3a9c8b0044" version="1">Dance and applause animations only play when someone nearby performs music — companions gather, face the musician, clap, and dance.</content>
+    <content contentuid="h7d2e1b4ag0045g4a1dgb5e2g6f3a9c8b0045" version="1">Contexto de zona (Campamento / Pueblo / Mazmorra)</content>
+    <content contentuid="h7d2e1b4ag0046g4a1dgb5e2g6f3a9c8b0046" version="1">Adapta el grupo al Campamento (hoguera, charla, descanso), Pueblos/Tabernas (arte, bancos) y Mazmorras/Zonas peligrosas (alerta, antorchas, sin dormir).</content>
+    <content contentuid="h7d2e1b4ag0047g4a1dgb5e2g6f3a9c8b0047" version="1">Companion Chatting &amp; Pets</content>
+    <content contentuid="h7d2e1b4ag0048g4a1dgb5e2g6f3a9c8b0048" version="1">Companions occasionally socialize with each other by the fire and greet Scratch or the Owlbear Cub when nearby.</content>
+    <content contentuid="h7d2e1b4ag0049g4a1dgb5e2g6f3a9c8b0049" version="1">Voces reactivas de compañeros</content>
+    <content contentuid="h7d2e1b4ag004ag4a1dgb5e2g6f3a9c8b004a" version="1">Redirige los comentarios de exploración de tu avatar a los compañeros cercanos usando sus líneas dobladas originales de Larian.</content>
+    <content contentuid="h7d2e1b4ag004bg4a1dgb5e2g6f3a9c8b004b" version="1">Proporción de voz de compañeros (%)</content>
+    <content contentuid="h7d2e1b4ag004cg4a1dgb5e2g6f3a9c8b004c" version="1">Probabilidad de que un compañero cercano comente un hallazgo o lugar en vez de tu avatar (80 % por defecto).</content>
+    <content contentuid="h7d2e1b4ag0050g4a1dgb5e2g6f3a9c8b0050" version="1">Exploración inteligente (Sin tedio)</content>
+    <content contentuid="h7d2e1b4ag0051g4a1dgb5e2g6f3a9c8b0051" version="1">Saqueo inteligente y envío al campamento</content>
+    <content contentuid="h7d2e1b4ag0052g4a1dgb5e2g6f3a9c8b0052" version="1">Companions inspect unlocked minor containers (vases, crates, sacks, barrels — leaving chests to you) and loose items: collect gold, tools, and alchemy, send fresh food and valuable trade goods straight to your Camp Chest, ignore 1-gold clutter, and call out scrolls, potions, books, keys, and gear.</content>
+    <content contentuid="h7d2e1b4ag0053g4a1dgb5e2g6f3a9c8b0053" version="1">Venta automática desde el cofre del campamento</content>
+    <content contentuid="h7d2e1b4ag0054g4a1dgb5e2g6f3a9c8b0054" version="1">When you open trade with any merchant, automatically sells scavenged valuables stored in your Camp Chest (goblets, silverware, gems, ingots) up to the merchant's actual gold supply.</content>
+    <content contentuid="h7d2e1b4ag0055g4a1dgb5e2g6f3a9c8b0055" version="1">Min Trade Good Value (Gold)</content>
+    <content contentuid="h7d2e1b4ag0056g4a1dgb5e2g6f3a9c8b0056" version="1">Minimum base gold value for common trade goods (silverware, goblets, ingots) to be collected for camp auto-sell instead of ignored as clutter (default 10g).</content>
+    <content contentuid="h7d2e1b4ag0057g4a1dgb5e2g6f3a9c8b0057" version="1">Freno instantáneo ante trampas</content>
+    <content contentuid="h7d2e1b4ag0058g4a1dgb5e2g6f3a9c8b0058" version="1">Immediately halts all moving party members the instant anyone spots an armed trap ahead.</content>
+    <content contentuid="h7d2e1b4ag0059g4a1dgb5e2g6f3a9c8b0059" version="1">Lavado automático de sangre y barro</content>
+    <content contentuid="h7d2e1b4ag005ag4a1dgb5e2g6f3a9c8b005a" version="1">Gently cleans blood and grime off the party shortly after combat and in Camp using native soap cleansing (no Wet status or puddles).</content>
+    <content contentuid="h7d2e1b4ag0060g4a1dgb5e2g6f3a9c8b0060" version="1">¡Cuidado, una trampa! ¡Alto!</content>
+    <content contentuid="h7d2e1b4ag0061g4a1dgb5e2g6f3a9c8b0061" version="1">Found equipment here — take a look!</content>
+    <content contentuid="h7d2e1b4ag0062g4a1dgb5e2g6f3a9c8b0062" version="1">Potion or scroll over here!</content>
+    <content contentuid="h7d2e1b4ag0063g4a1dgb5e2g6f3a9c8b0063" version="1">Key or writings here — check this!</content>
+    <content contentuid="h7d2e1b4ag0064g4a1dgb5e2g6f3a9c8b0064" version="1">Something special right here!</content>
+    <content contentuid="h7d2e1b4ag0065g4a1dgb5e2g6f3a9c8b0065" version="1">Vendido del campamento: %d objetos (+%d oro)</content>
+    <content contentuid="h7d2e1b4ag0066g4a1dgb5e2g6f3a9c8b0066" version="1">Supplies sent to Camp</content>
+    <content contentuid="h7d2e1b4ag0070g4a1dgb5e2g6f3a9c8b0070" version="1">Voces de acción e inmersión</content>
+    <content contentuid="h7d2e1b4ag0071g4a1dgb5e2g6f3a9c8b0071" version="1">Los compañeros dicen sus líneas de voz originales de Larian al registrar contenedores, leer libros, descansar, saludar mascotas y avisar de hallazgos (en silencio al acechar, combatir o dialogar).</content>
+    <content contentuid="h7d2e1b4ag0072g4a1dgb5e2g6f3a9c8b0072" version="1">Tiempo entre voces de acción (seg)</content>
+    <content contentuid="h7d2e1b4ag0073g4a1dgb5e2g6f3a9c8b0073" version="1">Pausa media mínima en segundos entre comentarios de acción del grupo para evitar solapamientos (24 s por defecto).</content>
+    <content contentuid="h7d2e1b4ag0074g4a1dgb5e2g6f3a9c8b0074" version="1">Respiro tras combate duro y aviso de Descanso corto</content>
+    <content contentuid="h7d2e1b4ag0075g4a1dgb5e2g6f3a9c8b0075" version="1">Tras una pelea dura, un compañero herido toma aire con una línea de voz y recuerda suavemente si quedan Descansos cortos.</content>
+    <content contentuid="h7d2e1b4ag0076g4a1dgb5e2g6f3a9c8b0076" version="1">Tomemos aire... (Descanso corto disponible)</content>
+    <content contentuid="h7d2e1b4ag0077g4a1dgb5e2g6f3a9c8b0077" version="1">Radio de anclaje en reposo (m)</content>
+    <content contentuid="h7d2e1b4ag0078g4a1dgb5e2g6f3a9c8b0078" version="1">Radio (en metros) alrededor del punto de parada donde pequeños pasos NO interrumpen las actividades de los compañeros (0 = interrumpir al mínimo paso).</content>
+    <content contentuid="h7d2e1b4ag0079g4a1dgb5e2g6f3a9c8b0079" version="1">Portador de antorcha inteligente</content>
+    <content contentuid="h7d2e1b4ag007ag4a1dgb5e2g6f3a9c8b007a" version="1">En zonas totalmente oscuras, un compañero (priorizando sin visión en la oscuridad) saca automáticamente una antorcha común para iluminar el camino y recupera su arma al instante ante sigilo, enemigos, combate, peligros inflamables o luz ambiental.</content>
+</contentList>
