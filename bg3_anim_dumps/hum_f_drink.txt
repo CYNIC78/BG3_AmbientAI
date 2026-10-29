@@ -1,0 +1,17 @@
+QUERY: type:animation HUM_F Drink | showing 15 of 15
+HUM_F_Rig_DFLT_UTIL_Drink_01                         dur=           loop=False | Public/Shared/Assets/Characters/_Anims/Humans/_Female/HUM_F_Rig/HUM_F_Rig_DFLT_UTIL_Drink_01.GR2
+HUM_F_Rig_DFLT_CINE_Drink_WineGoblet_01              dur=           loop=False | Public/Shared/Assets/Characters/_Anims/Humans/_Female/HUM_F_Rig/_Construction/HUM_F_Rig_DFLT_CINE_Drink_WineGoblet_01.GR2
+HUM_F_Rig_SCENE_HAG_Drink_CuppedHands_PLYR           dur=           loop=False | Public/Shared/Assets/Characters/_Anims/_Cinematic/Act01/HAG/HAG_Well/HUM_F_RIG/HUM_F_Rig_SCENE_HAG_Drink_CuppedHands_PLYR.GR2
+HUM_F_Rig_DFLT_CINE_Drink_NoHandleCup_01             dur=           loop=False | Public/Shared/Assets/Characters/_Anims/Humans/_Female/HUM_F_Rig/_Construction/HUM_F_Rig_DFLT_CINE_Drink_NoHandleCup_01.GR2
+HUM_F_Rig_DFLT_CINE_Drink_WineBottle_01              dur=           loop=False | Public/Shared/Assets/Characters/_Anims/Humans/_Female/HUM_F_Rig/_Construction/HUM_F_Rig_DFLT_CINE_Drink_WineBottle_01.GR2
+HUM_F_Rig_DFLT_CINE_Drink_HandleCup_01               dur=           loop=False | Public/Shared/Assets/Characters/_Anims/Humans/_Female/HUM_F_Rig/_Construction/HUM_F_Rig_DFLT_CINE_Drink_HandleCup_01.GR2
+HUM_F_Rig_SCENE_TWN_Brewer_Drink_LOOP_PLYR           dur=           loop=False | Public/SharedDev/Assets/Characters/_Anims/_Cinematic/Act02/TWN/TWN_Distillery_Brewer/HUM_F_Rig/HUM_F_Rig_SCENE_TWN_Brewer_Drink_LOOP_PLYR.GR2
+HUM_F_Rig_SCENE_TWN_Brewer_Reject_Drink_PLYR         dur=           loop=False | Public/SharedDev/Assets/Characters/_Anims/_Cinematic/Act02/TWN/TWN_Distillery_Brewer/HUM_F_Rig/HUM_F_Rig_SCENE_TWN_Brewer_Reject_Drink_PLYR.GR2
+HUM_F_Rig_SCENE_TWN_Brewer_Drink_IN_02_PLYR          dur=           loop=False | Public/SharedDev/Assets/Characters/_Anims/_Cinematic/Act02/TWN/TWN_Distillery_Brewer/HUM_F_Rig/HUM_F_Rig_SCENE_TWN_Brewer_Drink_IN_02_PLYR.GR2
+HUM_F_Head_F_Rig_SIT_CUST_Drinking_01_Drink_Wine_Glass_A dur=           loop=False | Public/Shared/Assets/Characters/_Anims/Humans/_Female/HUM_F_Rig/HUM_F_Head_F_Rig_SIT_CUST_Drinking_01_Drink_Wine_Glass_A.GR2
+HUM_F_Rig_DFLT_CUST_Drinking_01_Drink_Wine_Glass_A   dur=           loop=False | Public/Shared/Assets/Characters/_Anims/Humans/_Female/HUM_F_Rig/HUM_F_Rig_DFLT_CUST_Drinking_01_Drink_Wine_Glass_A.GR2
+HUM_F_Rig_SIT_CUST_Drinking_01_Drink_Wine_Glass_A    dur=           loop=False | Public/Shared/Assets/Characters/_Anims/Humans/_Female/HUM_F_Rig/HUM_F_Rig_SIT_CUST_Drinking_01_Drink_Wine_Glass_A.GR2
+HUM_F_Rig_DFLT_CUST_Drinking_01_Start_Drink_Wine_Glass_A dur=           loop=False | Public/Shared/Assets/Characters/_Anims/Humans/_Female/HUM_F_Rig/HUM_F_Rig_DFLT_CUST_Drinking_01_Start_Drink_Wine_Glass_A.GR2
+HUM_F_Rig_DFLT_CUST_Drinking_01_End_Drink_Wine_Glass_A dur=           loop=False | Public/Shared/Assets/Characters/_Anims/Humans/_Female/HUM_F_Rig/HUM_F_Rig_DFLT_CUST_Drinking_01_End_Drink_Wine_Glass_A.GR2
+HUM_F_Rig_DFLT_CUST_Drinking_01_Loop_Drink_Wine_Glass_A dur=           loop=False | Public/Shared/Assets/Characters/_Anims/Humans/_Female/HUM_F_Rig/HUM_F_Rig_DFLT_CUST_Drinking_01_Loop_Drink_Wine_Glass_A.GR2
+returned unique: 15

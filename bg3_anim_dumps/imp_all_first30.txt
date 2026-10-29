@@ -1,0 +1,32 @@
+QUERY: type:animation imp | showing 30 of 509
+IMP_Rig_TPose                                        dur=           loop=False | Public/Shared/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/IMP_Rig_TPose.GR2
+IMP_Head_Rig_ROM_01                                  dur=           loop=False | Public/Shared/Assets/Characters/_Anims/_Creatures/Imp/IMP_Head_Rig/IMP_Head_Rig_ROM_01.GR2
+IMP_Rig_XB_CUST_Imp_Drop_01                          dur=           loop=False | Public/Shared/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/IMP_Rig_XB_CUST_Imp_Drop_01.GR2
+IMP_Rig_DFLT_CUST_Imp_Drop_01                        dur=           loop=False | Public/Shared/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/IMP_Rig_DFLT_CUST_Imp_Drop_01.GR2
+IMP_Rig_CINE_Flying_TakeOff                          dur=           loop=False | Public/Shared/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/_Construction/IMP_Rig_CINE_Flying_TakeOff.GR2
+IMP_Rig_CINE_Flying_Land                             dur=           loop=False | Public/Shared/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/_Construction/IMP_Rig_CINE_Flying_Land.GR2
+IMP_Rig_DFLT_PM_Waving_01                            dur=           loop=False | Public/GustavX/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/IMP_Rig_DFLT_PM_Waving_01.GR2
+IMP_Rig_CINE_IDLE_OnGround_04                        dur=           loop=False | Public/Shared/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/_Construction/IMP_Rig_CINE_IDLE_OnGround_04.GR2
+IMP_Rig_DFLT_PM_Flying_02                            dur=           loop=False | Public/GustavX/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/IMP_Rig_DFLT_PM_Flying_02.GR2
+IMP_Rig_DFLT_PM_Lying_01                             dur=           loop=False | Public/GustavX/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/IMP_Rig_DFLT_PM_Lying_01.GR2
+IMP_Rig_CINE_IDLE_OnGround_03                        dur=           loop=False | Public/Shared/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/_Construction/IMP_Rig_CINE_IDLE_OnGround_03.GR2
+IMP_Rig_CINE_IDLE_OnGround_01                        dur=           loop=False | Public/Shared/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/_Construction/IMP_Rig_CINE_IDLE_OnGround_01.GR2
+IMP_Rig_DFLT_PM_Sitting_01                           dur=           loop=False | Public/GustavX/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/IMP_Rig_DFLT_PM_Sitting_01.GR2
+IMP_Rig_DFLT_PM_Screaming_01                         dur=           loop=False | Public/GustavX/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/IMP_Rig_DFLT_PM_Screaming_01.GR2
+IMP_Rig_CINE_IDLE_OnGround_02                        dur=           loop=False | Public/Shared/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/_Construction/IMP_Rig_CINE_IDLE_OnGround_02.GR2
+IMP_Rig_DFLT_PM_Flying_01                            dur=           loop=False | Public/GustavX/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/IMP_Rig_DFLT_PM_Flying_01.GR2
+IMP_Rig_DFLT_HIT_Pose_01                             dur=           loop=False | Public/Shared/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/IMP_Rig_DFLT_HIT_Pose_01.GR2
+IMP_Rig_DFLT_PM_Attacking_01                         dur=           loop=False | Public/GustavX/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/IMP_Rig_DFLT_PM_Attacking_01.GR2
+IMP_Rig_1HS_CUST_Imp_Drop_01                         dur=           loop=False | Public/Shared/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/IMP_Rig_1HS_CUST_Imp_Drop_01.GR2
+IMP_Head_Rig_DFLT_EMOT_TPose                         dur=           loop=False | Public/Shared/Assets/Characters/_Anims/_Creatures/Imp/IMP_Head_Rig/IMP_Head_Rig_DFLT_EMOT_TPose.GR2
+IMP_Rig_CINE_Folded_Wings_ADD                        dur=           loop=False | Public/Shared/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/_Construction/IMP_Rig_CINE_Folded_Wings_ADD.GR2
+IMP_Head_Rig_DFLT_PM_Flying_02                       dur=           loop=False | Public/GustavX/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/IMP_Head_Rig_DFLT_PM_Flying_02.GR2
+IMP_Rig_DFLT_LOCO_AdditiveTilt_L_01                  dur=           loop=False | Public/Shared/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/IMP_Rig_DFLT_LOCO_AdditiveTilt_L_01.GR2
+IMP_Head_Rig_DFLT_PM_Lying_01                        dur=           loop=False | Public/GustavX/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/IMP_Head_Rig_DFLT_PM_Lying_01.GR2
+IMP_Head_Rig_DFLT_PM_Flying_01                       dur=           loop=False | Public/GustavX/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/IMP_Head_Rig_DFLT_PM_Flying_01.GR2
+IMP_Head_Rig_DFLT_PM_Sitting_01                      dur=           loop=False | Public/GustavX/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/IMP_Head_Rig_DFLT_PM_Sitting_01.GR2
+IMP_Rig_DFLT_STAT_Grappled_01_Loop                   dur=           loop=False | Public/Shared/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/IMP_Rig_DFLT_STAT_Grappled_01_Loop.GR2
+IMP_Rig_DFLT_LOCO_AdditiveEnd_F_01                   dur=           loop=False | Public/Shared/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/IMP_Rig_DFLT_LOCO_AdditiveEnd_F_01.GR2
+IMP_Rig_DFLT_CC_Portrait_Still_01                    dur=           loop=False | Public/Shared/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/IMP_Rig_DFLT_CC_Portrait_Still_01.GR2
+IMP_Rig_DFLT_LOCO_AdditiveStart_F_01                 dur=           loop=False | Public/Shared/Assets/Characters/_Anims/_Creatures/Imp/IMP_Rig/IMP_Rig_DFLT_LOCO_AdditiveStart_F_01.GR2
+returned unique: 30
